@@ -4,8 +4,7 @@
 
 The source code includes training and inference procedures for the proposed method of the paper submitted to the Thirty-Sixth AAAI Conference on Artificial Intelligence (AAAI 2022) with title "**Shape-Adaptive Selection and Measurement for Oriented Object Detection**" (ID: 2171).
 
-This part of the code illustrates the effectiveness of the proposed method choosing [RepPoints](https://ieeexplore.ieee.org/document/9009032) as the baseline. The implementation of the baseline method for comparison, RepPoints with oriented bounding boxes, comes from [BeyondBoundingBox](https://github.com/SDL-GuoZonghao/BeyondBoundingBox/blob/main/mmdet/models/anchor_heads/cfa_head.py), which also adopts [MMDetection](https://github.com/open-mmlab/mmdetection) framework.
-
+This part of the code illustrates the effectiveness of the proposed method choosing [RepPoints](https://ieeexplore.ieee.org/document/9009032) as the baseline. The implementation of the baseline method for comparison, RepPoints with oriented bounding boxes, comes from [BeyondBoundingBox](https://github.com/SDL-GuoZonghao/BeyondBoundingBox/blob/main/mmdet/models/anchor_heads/cfa_head.py), which also adopts [MMDetection](https://github.com/open-mmlab/mmdetection) framework, and thanks to all authors of the referenced codes.
 It is recommended to get the MMDetection framework and some necessary CUDA functions  by installing [BeyondBoundingBox](https://github.com/SDL-GuoZonghao/BeyondBoundingBox) directly and copy the  source code of the proposed method  to its source code tree for usage.
 
 ## Dependencies
