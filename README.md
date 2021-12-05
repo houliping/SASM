@@ -9,7 +9,7 @@ The the effectiveness of the proposed method is verified on two baseline methods
 * ``sasm_reppoints``: the implementation and verification using [RepPoints](https://ieeexplore.ieee.org/document/9009032) as baseline;
 * ``sasm_s2anet``: the implementation and verification using [S2A-Net](https://ieeexplore.ieee.org/document/9377550) as baseline.
 
-We provide only the source code related to the proposed method in the sub-directories so that reviewers can check them quickly and conveniently.
+We provide only the source code related to the proposed method in the sub-directories so that readers can check them quickly and conveniently.
 
 Please refer to the ``README.md`` file in each sub-directory for the detailed instructions of usage.
 
