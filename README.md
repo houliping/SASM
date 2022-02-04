@@ -7,7 +7,7 @@ The source code includes training and inference procedures for the proposed meth
 The the effectiveness of the proposed method is verified on two baseline methods. Corresponding source code and configurations reside in following two sub-directories:
 
 * ``sasm_reppoints``: the implementation and verification using [RepPoints](https://ieeexplore.ieee.org/document/9009032) as baseline;
-* ``sasm_s2anet``: the implementation and verification using [S$^2$A-Net](https://ieeexplore.ieee.org/document/9377550) as baseline.
+* ``sasm_s2anet``: the implementation and verification using s2anet(https://ieeexplore.ieee.org/document/9377550) as baseline.
 
 We provide only the source code related to the proposed method in the sub-directories so that reviewers can check them quickly and conveniently.
 
@@ -22,7 +22,7 @@ Please refer to the ``README.md`` file in each sub-directory for the detailed in
 | RepPoints  |   MaxIoU   |     GIoU      |      -      | 70.46 |
 | RepPoints  |    SASM    | BCLoss + GIoU |      -      | 74.27 |
 | RepPoints  |    SASM    | BCLoss + GIoU | MS training | 77.19 |
-| S$^2$A-Net |    SASM    |   Smooth L1   | MS training | 79.17 |
+| s2anet |    SASM    |   Smooth L1   | MS training | 79.17 |
 
 
 
