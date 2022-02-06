@@ -30,8 +30,10 @@ Please refer to the ``README.md`` file in each sub-directory for the detailed in
 
 1、https://github.com/open-mmlab/mmdetection
 
-2、https://github.com/SDL-GuoZonghao/BeyondBoundingBox
+2、https://github.com/LiWentomng/OrientedRepPoints
 
-3、https://github.com/csuhan/s2anet
+3、https://github.com/SDL-GuoZonghao/BeyondBoundingBox
 
-4、https://github.com/sfzhang15/ATSS
+4、https://github.com/csuhan/s2anet
+
+5、https://github.com/sfzhang15/ATSS
