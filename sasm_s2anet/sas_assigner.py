@@ -142,14 +142,14 @@ class SASAssigner(BaseAssigner):
         # mean and std, set mean + std as the iou threshold
 
         gt_bboxes_ratios = self.AspectRatio(gt_bboxes)
-        gt_bboxes_ratios_per_gt = gt_bboxes_ratios.mean(0)
+#         gt_bboxes_ratios_per_gt = gt_bboxes_ratios.mean(0)
 
         candidate_overlaps = overlaps[candidate_idxs, torch.arange(num_gt)]
         overlaps_mean_per_gt = candidate_overlaps.mean(0)
         overlaps_std_per_gt = candidate_overlaps.std(0)
         overlaps_thr_per_gt = overlaps_mean_per_gt + overlaps_std_per_gt
 
-        iou_thr_weight = torch.exp((-1 / 4) * gt_bboxes_ratios_per_gt)
+        iou_thr_weight = torch.exp((-1 / 4) * gt_bboxes_ratios)
 
         # clamp neg min threshold
         # overlaps_thr_per_gt = overlaps_thr_per_gt.clamp_min(0.3)
